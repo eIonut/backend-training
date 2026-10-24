@@ -1,0 +1,80 @@
+2026-10-01T09:00:00Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:00:17Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:00:34Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:00:51Z INFO [http] GET /health 200 1ms
+2026-10-01T09:01:08Z WARN [http] 429 rate limited 203.0.113.9
+2026-10-01T09:01:25Z INFO [orders] order created
+2026-10-01T09:01:42Z INFO [email] confirmation queued
+2026-10-01T09:01:59Z INFO [search] query="jazz concerts"
+2026-10-01T09:02:16Z INFO [orders] order created
+2026-10-01T09:02:33Z ERROR [db] connection refused mongo:27017
+2026-10-01T09:02:50Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:03:07Z INFO [email] confirmation queued
+2026-10-01T09:03:24Z INFO [http] GET /health 200 1ms
+2026-10-01T09:03:41Z INFO [http] GET /health 200 1ms
+2026-10-01T09:03:58Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:04:15Z INFO [orders] order created
+2026-10-01T09:04:32Z INFO [http] GET /health 200 1ms
+2026-10-01T09:04:49Z INFO [search] query="jazz concerts"
+2026-10-01T09:05:06Z INFO [http] GET /health 200 1ms
+2026-10-01T09:05:23Z INFO [orders] order created
+2026-10-01T09:05:40Z WARN [db] slow query 812ms
+2026-10-01T09:05:57Z INFO [email] confirmation queued
+2026-10-01T09:06:14Z INFO [search] query="jazz concerts"
+2026-10-01T09:06:31Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:06:48Z ERROR [orders] payment provider timeout after 5000ms
+2026-10-01T09:07:05Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:07:22Z INFO [http] GET /health 200 1ms
+2026-10-01T09:07:39Z INFO [auth] user logged in
+2026-10-01T09:07:56Z INFO [cache] miss for event:42
+2026-10-01T09:08:13Z INFO [email] confirmation queued
+2026-10-01T09:08:30Z INFO [orders] order created
+2026-10-01T09:08:47Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:09:04Z INFO [cache] miss for event:42
+2026-10-01T09:09:21Z INFO [cache] miss for event:42
+2026-10-01T09:09:38Z INFO [orders] order created
+2026-10-01T09:09:55Z INFO [cache] miss for event:42
+2026-10-01T09:10:12Z INFO [search] query="jazz concerts"
+2026-10-01T09:10:29Z WARN [cache] redis reconnecting
+2026-10-01T09:10:46Z ERROR [orders] seat already taken (event 42, seat A7)
+2026-10-01T09:11:03Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:11:20Z INFO [orders] order created
+2026-10-01T09:11:37Z INFO [orders] order created
+2026-10-01T09:11:54Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:12:11Z INFO [search] query="jazz concerts"
+2026-10-01T09:12:28Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:12:45Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:13:02Z INFO [search] query="jazz concerts"
+2026-10-01T09:13:19Z WARN [db] slow query 812ms
+2026-10-01T09:13:36Z INFO [orders] order created
+2026-10-01T09:13:53Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:14:10Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:14:27Z INFO [search] query="jazz concerts"
+2026-10-01T09:14:44Z WARN [http] 429 rate limited 203.0.113.9
+2026-10-01T09:15:01Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:15:18Z INFO [email] confirmation queued
+2026-10-01T09:15:35Z INFO [search] query="jazz concerts"
+2026-10-01T09:15:52Z INFO [search] query="jazz concerts"
+2026-10-01T09:16:09Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:16:26Z INFO [search] query="jazz concerts"
+2026-10-01T09:16:43Z INFO [search] query="jazz concerts"
+2026-10-01T09:17:00Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:17:17Z WARN [cache] redis reconnecting
+2026-10-01T09:17:34Z INFO [auth] user logged in
+2026-10-01T09:17:51Z INFO [orders] order created
+2026-10-01T09:18:08Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:18:25Z INFO [email] confirmation queued
+2026-10-01T09:18:42Z INFO [cache] miss for event:42
+2026-10-01T09:18:59Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:19:16Z INFO [http] POST /api/orders 201 48ms
+2026-10-01T09:19:33Z INFO [search] query="jazz concerts"
+2026-10-01T09:19:50Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:20:07Z ERROR [email] SMTP 550 mailbox unavailable
+2026-10-01T09:20:24Z INFO [search] query="jazz concerts"
+2026-10-01T09:20:41Z INFO [http] GET /health 200 1ms
+2026-10-01T09:20:58Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:21:15Z INFO [email] confirmation queued
+2026-10-01T09:21:32Z INFO [http] GET /api/events 200 12ms
+2026-10-01T09:21:49Z INFO [auth] login failed: wrong password (no error, just a typo)
+2026-10-01T09:22:06Z INFO [http] GET /health 200 1ms
+2026-10-01T09:22:23Z INFO [email] confirmation queued

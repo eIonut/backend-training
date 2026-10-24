@@ -1,0 +1,12 @@
+{
+  "name": "backend-labs",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "status": "node scripts/status.mjs"
+  }
+}

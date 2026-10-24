@@ -1,0 +1,11 @@
+# Grows with the roadmap (see ROADMAP.md "Infrastructure").
+services:
+  # Ubuntu box for Linux tools. Open a shell with:  docker compose exec playground bash
+  playground:
+    image: ubuntu:24.04
+    hostname: playground
+    working_dir: /work
+    volumes:
+      - ./:/work # the whole project, live: edit on your Mac, run on Linux
+    command: sleep infinity
+    init: true

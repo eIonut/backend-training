@@ -16,8 +16,8 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 
 ## Current position
 
-- **Now:** L0.1 Toolbox, task T1 (not started)
-- **Next step:** read `labs/0.1-toolbox/README.md`, then do T1
+- **Now:** L0.1 Toolbox: all checks pass (`done`), RECAP.md not answered yet
+- **Next step:** answer `labs/0.1-toolbox/RECAP.md`, then say "review lab 0.1"
 - **Open questions:** none
 
 ## Session log
@@ -25,6 +25,7 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 | Date | What happened | Next |
 |---|---|---|
 | 2026-10-24 | New roadmap (L0–L13) created; progress tracking, check runner and labs 0.1 + 0.2 written | Start L0.1 |
+| 2026-10-28 | L0.1 tasks T1–T3 done; repo pushed to github.com/eIonut/backend-training (remote switched to SSH) | Answer L0.1 RECAP, review lab 0.1 |
 
 ---
 

@@ -11,9 +11,13 @@
 //     print nothing to stdout, and end with exit code 1
 
 // TODO 1: read the first argument (remember: your arguments start at index 2)
-
+const argv1 = process.argv[2];
 // TODO 2: decide the name, following the precedence rule
-
+const name = argv1 || process.env.NAME || "backend";
 // TODO 3: handle the empty-argument case (stderr + exit code 1)
-
+if (argv1 === "") {
+  console.error("Provide a non-empty argument");
+  process.exit(1);
+}
 // TODO 4: print the greeting
+console.log(`Hello, ${name}!`);

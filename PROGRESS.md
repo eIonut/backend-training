@@ -16,8 +16,8 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 
 ## Current position
 
-- **Now:** L0.1 Toolbox: all checks pass (`done`), RECAP.md not answered yet
-- **Next step:** answer `labs/0.1-toolbox/RECAP.md`, then say "review lab 0.1"
+- **Now:** L0.2 Shell survival kit, task T1 (not started)
+- **Next step:** read `labs/0.2-shell/README.md`, then do T1 (Docker/OrbStack must be running for checks)
 - **Open questions:** none
 
 ## Session log
@@ -26,6 +26,7 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 |---|---|---|
 | 2026-10-24 | New roadmap (L0–L13) created; progress tracking, check runner and labs 0.1 + 0.2 written | Start L0.1 |
 | 2026-10-28 | L0.1 tasks T1–T3 done; repo pushed to github.com/eIonut/backend-training (remote switched to SSH) | Answer L0.1 RECAP, review lab 0.1 |
+| 2026-10-28 | L0.1 reviewed: code solid; RECAP Q2/Q3 corrected (precedence is about specificity; progress goes to stderr) | Start L0.2 |
 
 ---
 
@@ -33,10 +34,10 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 
 | ID | Item | Status | Notes |
 |---|---|---|---|
-| L0.1 | Toolbox | done | |
-| L0.1-T1 | Pin the Node version | done | |
-| L0.1-T2 | The process contract (`hello.js`) | done | |
-| L0.1-T3 | Inside the playground | done | |
+| L0.1 | Toolbox | reviewed | precedence = specificity, not position; stdout = result, stderr = progress/errors |
+| L0.1-T1 | Pin the Node version | reviewed | |
+| L0.1-T2 | The process contract (`hello.js`) | reviewed | optional: process.exitCode over process.exit, validate before deciding |
+| L0.1-T3 | Inside the playground | reviewed | |
 | L0.2 | Shell survival kit | todo | |
 | L0.2-T1 | Find the log files | todo | |
 | L0.2-T2 | Count the real errors | todo | |

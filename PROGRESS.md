@@ -32,10 +32,10 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 
 | ID | Item | Status | Notes |
 |---|---|---|---|
-| L0.1 | Toolbox | todo | |
-| L0.1-T1 | Pin the Node version | todo | |
-| L0.1-T2 | The process contract (`hello.js`) | todo | |
-| L0.1-T3 | Inside the playground | todo | |
+| L0.1 | Toolbox | done | |
+| L0.1-T1 | Pin the Node version | done | |
+| L0.1-T2 | The process contract (`hello.js`) | done | |
+| L0.1-T3 | Inside the playground | done | |
 | L0.2 | Shell survival kit | todo | |
 | L0.2-T1 | Find the log files | todo | |
 | L0.2-T2 | Count the real errors | todo | |

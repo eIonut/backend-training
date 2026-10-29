@@ -4,3 +4,4 @@
 #
 # TODO: print the 3 most requested paths in data/logs/access.log, most requested first,
 #       each line as "<count> <path>".
+awk '{print $7}' data/logs/access.log | sort | uniq -c | sort -rn | head -n 3   

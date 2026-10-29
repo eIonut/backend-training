@@ -6,3 +6,7 @@
 # TODO 2: run `bash data/noisy.sh`: stdout -> out/stdout.txt, stderr -> out/stderr.txt
 # TODO 3: run it again with both streams -> out/all.txt
 # TODO 4: print only the number of lines in out/stderr.txt
+mkdir -p out
+bash data/noisy.sh > out/stdout.txt 2> out/stderr.txt
+bash data/noisy.sh > out/all.txt 2>&1
+wc -l < out/stderr.txt

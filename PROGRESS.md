@@ -16,8 +16,8 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 
 ## Current position
 
-- **Now:** L0.2 Shell survival kit, task T1 (not started)
-- **Next step:** read `labs/0.2-shell/README.md`, then do T1 (Docker/OrbStack must be running for checks)
+- **Now:** L0.2 Shell survival kit: T2–T4 done, T1 failing, T5 not started
+- **Next step:** fix T1 (`find-logs.sh` still has `cd ..`/`cd data/`: scripts run from the lab folder, so drop them), then do T5, answer RECAP, "review lab 0.2"
 - **Open questions:** none
 
 ## Session log
@@ -27,6 +27,7 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 | 2026-10-24 | New roadmap (L0–L13) created; progress tracking, check runner and labs 0.1 + 0.2 written | Start L0.1 |
 | 2026-10-28 | L0.1 tasks T1–T3 done; repo pushed to github.com/eIonut/backend-training (remote switched to SSH) | Answer L0.1 RECAP, review lab 0.1 |
 | 2026-10-28 | L0.1 reviewed: code solid; RECAP Q2/Q3 corrected (precedence is about specificity; progress goes to stderr) | Start L0.2 |
+| 2026-10-29 | L0.2 T2–T4 done (awk column match, sort/uniq -c/sort -rn, stdout/stderr redirection); T1 regressed (cd) | Fix T1, do T5 |
 
 ---
 
@@ -38,12 +39,12 @@ Task rows (`L0.1-T1`, ...) are added when a lab is written.
 | L0.1-T1 | Pin the Node version | reviewed | |
 | L0.1-T2 | The process contract (`hello.js`) | reviewed | optional: process.exitCode over process.exit, validate before deciding |
 | L0.1-T3 | Inside the playground | reviewed | |
-| L0.2 | Shell survival kit | todo | |
-| L0.2-T1 | Find the log files | todo | |
-| L0.2-T2 | Count the real errors | todo | |
-| L0.2-T3 | Top 3 busiest endpoints | todo | |
-| L0.2-T4 | Split stdout and stderr | todo | |
-| L0.2-T5 | Permissions | todo | |
+| L0.2 | Shell survival kit | in progress | |
+| L0.2-T1 | Find the log files | in progress | `cd` lines break paths when run from the lab folder |
+| L0.2-T2 | Count the real errors | done | |
+| L0.2-T3 | Top 3 busiest endpoints | done | |
+| L0.2-T4 | Split stdout and stderr | done | first version parsed noisy.sh source instead of running it; fixed with redirection |
+| L0.2-T5 | Permissions | in progress | |
 
 ## L1 - Node runtime
 

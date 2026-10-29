@@ -3,3 +3,4 @@
 # Run from the lab folder:  bash tasks/count-errors.sh
 #
 # TODO: print only the number of lines in data/logs/app.log whose log level (column 2) is ERROR.
+awk '$2 == "ERROR"' data/logs/app.log | wc -l 
